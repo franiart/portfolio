@@ -1,0 +1,54 @@
+/*-------SECCIÓN DE CONOCIMIENTOS---------*/
+.section{
+    background: #DEF2F1;
+}
+
+.conocimientos{
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.conocimientos h2{
+    padding-top: 80px;
+    font-size: 2.5em;
+
+}
+
+.conocimientos p{
+    width: 500px;
+    display: inline-block;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 310px;
+    margin-left: 310px;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.conocimientos .container div{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border: 1px #05386B solid;
+    margin-top: 10px auto;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.container img{
+    width: 70px;
+    height: 70px;
+    margin: 50px 0 auto;
+}
+
+
+
+
+
+

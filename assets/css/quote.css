@@ -1,0 +1,28 @@
+/*-------SECCIÓN DE LA CITA---------*/
+.quote{
+    background: #05386B;
+    color: #fff;
+    text-align: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto-cita{
+    font-size: 1.2em;
+    margin-bottom: 50px;
+}
+
+.autor{
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.quote img{
+    width: 100px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
