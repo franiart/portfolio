@@ -1,14 +1,14 @@
 /*-------SECCIÓN DE FORMULARIO---------*/
 .contact{
     background: #DEF2F1;
-    height: 800px;
+    height: 900px;
 }
 
 .container-contact{
     border: 1px #05386B solid;
     border-radius: 10px;
     background-color: #fff;
-    margin: 0px auto;
+    border-top: 50px
 }
 
 .container-contact>*{
@@ -73,7 +73,8 @@
 /* queries-form*/
 @media (min-width: 700px){
     .contact{
-        padding: 0 4rem;
+        padding: 4rem 4rem;
+        height: 530px;
     }
 
     .container-contact{
