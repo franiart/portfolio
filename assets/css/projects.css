@@ -30,9 +30,14 @@
     width: 300px;
     height: 300px;
     text-align: center;
-    border: 1px #05386B solid;
+    border: 1px #cacaca solid;
     border-radius: 10px;
     margin-top: 30px;
+}
+
+.container-projects div:hover{
+    border: 2px #05386B solid;
+    color: #05386B;
 }
 
 .container-projects div img{
