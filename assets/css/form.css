@@ -1,5 +1,5 @@
 /*-------SECCIÓN DE FORMULARIO---------*/
-.contacto{
+.contact{
     background: #DEF2F1;
     height: 800px;
 }
@@ -72,7 +72,7 @@
 
 /* queries-form*/
 @media (min-width: 700px){
-    .contacto{
+    .contact{
         padding: 0 4rem;
     }
 
