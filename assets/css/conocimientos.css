@@ -5,13 +5,16 @@
 
 .skills{
     text-align: center;
-    padding-bottom: 100px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .skills h2{
-    padding-top: 80px;
     font-size: 2.5em;
-
+    padding-top:80px;
 }
 
 .skills p{
@@ -22,38 +25,36 @@
 
 .container-skills{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    margin-right: 310px;
-    margin-left: 310px;
+    margin: auto 200px;
     padding-top: 20px;
     flex-wrap: wrap;
     align-content: center;
+    padding: 50px;
+}
+
+.skill{
+    width: 250px;
+    border: 1px #cacaca solid;
+    border-radius: 10px;
+    background: #fff;
+    margin: 10px;
+    padding: 50px 0;
 }
 
 .skills .container-skills div:hover{
-    border: 2px #05386B solid;
+    border: 1px #05386B solid;
     color: #05386B;
-}
-
-
-.skills .container-skills div{
-    width: 200px;
-    height: 200px;
-    text-align: center;
-    border: 1px #cacaca solid;
-    margin-top: 10px auto;
-    border-radius: 10px;
-    background: #fff;
 }
 
 .container-skills img{
     width: 70px;
     height: 70px;
-    margin: 50px 0 auto;
+    margin: 0 auto;
 }
 
-
+/*-------FIN SECCIÓN DE CONOCIMIENTOS---------*/
 
 
 

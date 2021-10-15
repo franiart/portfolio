@@ -39,18 +39,22 @@
     text-align: center;
 }
 
-#menu-nav a:hover{
-    color: #fff;
+/*selecciona los elementos excepto el último*/
+#menu-nav a:hover:not(:last-child){
+    color: #05386B;
+    opacity: 0.5;
 }
 #menu-nav a:last-child:hover{
     background-color: #fff;
     color: #05386B;
 }
+/* ---------FIN MENU DE NAVEGACIÓN----------*/
 
-/*-------SECCIÓN DEL BANNER---------*/
+
+/*-------SECCIÓN DEL ABOUT---------*/
 .about{
-    height: 800px;
-    padding-top: 120px;
+    padding-top: 100px;
+    height: 100vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -61,7 +65,7 @@
     height: 400px;
 }
 
-.about-me .hola{
+.about-me .hi{
     font-size: 30px;
     font-weight: bold;
 }
@@ -71,7 +75,7 @@
     color: #05386B;
 }
 
-.about-me .descripcion{
+.about-me .description{
     margin-bottom: 50px;
 }
 
@@ -82,4 +86,8 @@
     color: #fff;
     border-radius: 50px;
 }
-  
+
+.about-me .button:hover{
+    opacity: 0.8;
+}
+/*------- FIN SECCIÓN DEL ABOUT---------*/ 

@@ -1,4 +1,8 @@
 /*-------SECCIÓN DE LA CITA---------*/
+#quote-section{
+    height: 100vh;
+}
+
 .quote{
     background: #05386B;
     color: #fff;
@@ -20,9 +24,6 @@
     margin-bottom: 50px;
 }
 
-.quote img{
-    width: 100px;
-    margin-bottom: 50px;
-    margin-top: 50px;
+.fa-quote-right{
+    color: #fff;
 }
-

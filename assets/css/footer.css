@@ -14,8 +14,12 @@ footer{
 .footer-nav a{
     text-decoration: none;
     color: #fff;
+    padding: 20px;
 }
 
+.footer-nav a:hover{
+    opacity: 0.5;
+}
 
 .footer-button button{
     border-radius: 50%;
@@ -24,6 +28,12 @@ footer{
     border: none;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+.footer-button button:hover{
+    background: #05386B;
+    color: #fff;
+    border: 1px solid #fff;
 }
 
 .footer-button button i{
