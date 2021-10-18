@@ -46,3 +46,11 @@ footer{
 .footer-nav, .footer-rrss{
     padding-bottom: 30px;
 }
+
+/*---------responsive------------*/  
+  @media (max-width: 650px) {
+    .footer-nav {
+      display: none;
+    }
+  }
+  

@@ -48,6 +48,25 @@
     }
   }
   
+  @media (max-width: 650px) {
+    .projects {
+      flex-wrap: wrap;
+    }
+    
+    .container-projects{
+      margin: 0.5em 0;
+      font-size: 0.8em;
+      line-height: 2.2;
+      padding: 0 20px;
+    }
+  
+    .project {
+      width: 100%;
+      margin: 0;
+      margin-bottom: 1.25em;
+    }
+  }
+
   @media (max-width: 550px) {
     .projects {
       flex-wrap: wrap;
@@ -67,21 +86,3 @@
     }
   }
   
-  @media (max-width: px) {
-    .projects {
-      flex-wrap: wrap;
-    }
-    
-    .container-projects{
-      margin: 0.5em 0;
-      font-size: 0.8em;
-      line-height: 2.2;
-      padding: 0 20px;
-    }
-  
-    .project {
-      width: 100%;
-      margin: 0;
-      margin-bottom: 1.25em;
-    }
-  }

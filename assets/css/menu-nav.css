@@ -35,3 +35,17 @@
     color: #05386B;
 }
 /* ---------FIN MENU DE NAVEGACIÓN----------*/
+
+/*---------responsive------------*/  
+@media (max-width: 900px) {
+    header {
+      display: none;
+    }
+  }
+
+
+@media (max-width: 650px) {
+    #menu-nav {
+      display: none;
+    }
+  }
