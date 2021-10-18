@@ -1,0 +1,37 @@
+/* ---------MENU DE NAVEGACIÓN----------*/
+#menu-nav{
+    height: 100px;
+    background: #DEF2F1;
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.2em;
+    box-shadow: 0px 11px 42px -12px rgba(0,0,0,0.51);
+    position: fixed;
+    width: 100%;
+}
+
+#menu-nav a{
+    color:#05386B;
+    margin-right: 50px;
+}
+
+#menu-nav a:last-child{
+    background-color:#05386B;
+    color:#fff;
+    border-radius: 50px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/*selecciona los elementos excepto el último*/
+#menu-nav a:hover:not(:last-child){
+    color: #05386B;
+    opacity: 0.5;
+}
+#menu-nav a:last-child:hover{
+    background-color: #fff;
+    color: #05386B;
+}
+/* ---------FIN MENU DE NAVEGACIÓN----------*/

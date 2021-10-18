@@ -3,91 +3,53 @@
 @import url(quote.css);
 @import url(projects.css);
 @import url(form.css);
+@import url(about.css);
+@import url(menu-nav.css);
 @import url(footer.css);
+
 
 
 *{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-}
-/* ---------MENU DE NAVEGACIÓN----------*/
-#menu-nav{
-    height: 100px;
-    background: #DEF2F1;
-    display: flex;
-    text-align: right;
-    justify-content: flex-end;
-    align-items: center;
-    font-size: 1.2em;
-    box-shadow: 0px 11px 42px -12px rgba(0,0,0,0.51);
-    position: fixed;
-    width: 100%;
+    box-sizing: border-box;
 }
 
-#menu-nav a{
-    text-decoration: none;
-    color:#05386B;
-    margin-right: 50px;
+
+.title{
+    font-size: 2.5em;
 }
 
-#menu-nav a:last-child{
-    background-color:#05386B;
-    color:#fff;
-    border-radius: 50px;
-    padding: 10px 20px;
-    text-align: center;
-}
-
-/*selecciona los elementos excepto el último*/
-#menu-nav a:hover:not(:last-child){
-    color: #05386B;
-    opacity: 0.5;
-}
-#menu-nav a:last-child:hover{
-    background-color: #fff;
-    color: #05386B;
-}
-/* ---------FIN MENU DE NAVEGACIÓN----------*/
-
-
-/*-------SECCIÓN DEL ABOUT---------*/
-.about{
-    padding-top: 100px;
-    height: 100vh;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.about img{
+.p-description{
     width: 400px;
-    height: 400px;
+    display: inline-block;
 }
 
-.about-me .hi{
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.about-me h1{
-    font-size: 70px;
-    color: #05386B;
-}
-
-.about-me .description{
-    margin-bottom: 50px;
-}
-
-.about-me .button{
+a{
     text-decoration: none;
-    padding: 10px 20px;
-    background: #05386B;
-    color: #fff;
-    border-radius: 50px;
+    color: #000;
 }
 
-.about-me .button:hover{
-    opacity: 0.8;
-}
-/*------- FIN SECCIÓN DEL ABOUT---------*/ 
+
+/*---------responsive------------*/
+@media (max-width: 900px) {
+    .column {
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .section {
+        width: auto;
+      padding: 80px 20px;
+    }
+  }
+  
+  @media (max-width: 400) {
+    .section {
+        width: auto;
+      padding: 80px 10px;
+    }
+  }
+  

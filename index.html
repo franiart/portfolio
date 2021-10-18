@@ -37,8 +37,8 @@
 
 <!--Aquí comienza la sección de conocimientos-->
         <section class="section skills" id="skills-section">
-            <h2>Mis conocimientos</h2>
-            <p>Estos son algunos de mis conocimientos en desarrollo frontend.</p>
+            <h2 class="title">Mis conocimientos</h2>
+            <p class="p-description">Estos son algunos de mis conocimientos en desarrollo frontend.</p>
 
             <div class="container-skills">
                 <div class="skill">
@@ -76,23 +76,23 @@
 
 
 <!--Aquí comienza la sección de la cita-->
-        <section class="quote" id="quote-section">
+        <section class="quote section" id="quote-section">
             <blockquote class="content-quote">
-                <i class="fa-solid fa-quote-right fa-lg"></i>
+                <img src="assets/img/quote.svg" alt="quote">
                 <p class="texto-cita">Quiero dejar mi marca en el universo</p>
                 <h2 class="autor">Steve Jobs</h2>
             </blockquote>
         </section>
 
 <!--Aquí comienza la sección de proyectos-->
-        <section class="projects" id="projects-section">
-            <h2>Mis proyectos</h2>
-            <p>Estos son algunos de mis proyectos como desarrolladora frontend.</p>
+        <section class="projects section" id="projects-section">
+            <h2 class="title">Mis proyectos</h2>
+            <p class="p-description">Estos son algunos de mis proyectos como desarrolladora frontend.</p>
             
             <div class="container-projects">
                 <div class="project">
-                    <img src="assets/img/portfolio.svg" alt="imagen-del-portfolio">
-                    <h4>Portfolio</h4>
+                        <img src="assets/img/portfolio.svg" alt="imagen-del-portfolio">
+                        <h4>Portfolio</h4>
                 </div>
     
                 <div class="project">
@@ -129,38 +129,45 @@
         </section>
 
 <!--Aquí comienza la sección de contacto y formulario-->
-    <section class="contact" id="contact-section">
+    <section class="contact section" id="contact-section">
         <div class="container-contact">
             <div class="contact-info">
-                <h2>Contactame</h2>
-                <p>Puedes contactarme a través de mis redes sociales o consultar directamente mediante el formulario.</p>
-                <ul>
-                    <li><i class="fab fa-behance"></i>Franiart</li>
-                    <li><i class="fab fa-instagram"></i>@frani_art</li>
-                    <li><i class="fab fa-linkedin-in"></i>Fran Borges</li>
-                    <li><i class="fas fa-envelope-open-text"></i>trabajos.franiart@gmail.com</li>
-                </ul>
+                <h2 class="title">Contáctame</h2>
+                <p class="p-description">Puedes contactarme a través de mis redes sociales o consultar directamente mediante el formulario.</p>
+                <a href="https://www.behance.net/franiart" class="rrss">
+                    <i class="fab fa-behance fa-lg fa-fw"></i>Franiart
+                </a>
+                <a href="https://www.instagram.com/frani_art/" class="rrss">
+                    <i class="fab  fa-instagram fa-lg fa-fw"></i>@frani_art
+                </a>
+                <a href="https://github.com/franiart" class="rrss">
+                    <i class="fab fa-github-alt fa-lg fa-circle fa-fw"></i>franiart
+                </a>
+                <a href="mailto:trabajos.franiart@gmail.com@gmail.com" class="rrss">
+                    <i class="fas fa-envelope-open-text fa-lg fa-fw"></i>trabajos.franiart@gmail.com
+                </a>
+
             </div>
 
             <div class="form-section">
-                <h2>Escríbeme</h2>
+                <h2 class="title">Escríbeme</h2>
                 <form action="">
-                    <p>
+                    <p class="entry">
                         <label for="firstname">Nombre *</label>
                         <input type="text" name="Nombre" class="input-firstname" placeholder="p.ej.: Fran">
                     </p>
                    
-                    <p>
+                    <p class="entry">
                         <label for="lastname">Apellido *</label>
                         <input type="text" name="Apellido" class="input-lastname" placeholder="p.ej.: Borges">
                     </p>
                     
-                    <p class="block">
+                    <p  class="entry block">
                         <label for="">Email *</label>
                         <input type="text" name="Email" class="input-email" placeholder="p.ej.: trabajos.franiart@gmai.com">
                     </p>
 
-                    <p class="block">
+                    <p class="entry block">
                         <label for="">Mensaje *</label>
                         <textarea name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí"></textarea>
                     </p>
@@ -184,11 +191,19 @@
             </div>
             
 
-            <div class="footer-button">
-                <button><i class="fab fa-behance"></i></button>
-                <button><i class="fab fa-instagram fa-circle"></i></button>
-                <button><i class="fab fa-linkedin-in fa-circle"></i></button>
-                <button><i class="fas fa-envelope-open-text fa-circle"></i></button>
+            <div class="footer-rrss">
+                <a href="https://www.behance.net/franiart" class="rrss">
+                    <i class="fab fa-behance fa-lg"></i>
+                </a>
+                <a href="https://www.instagram.com/frani_art/" class="rrss">
+                    <i class="fab fa-instagram fa-lg"></i>
+                </a>
+                <a href="https://github.com/franiart" class="rrss">
+                    <i class="fab fa-github-alt fa-lg fa-circle"></i>
+                </a>
+                <a href="mailto:trabajos.franiart@gmail.com@gmail.com" class="rrss">
+                    <i class="fas fa-envelope-open-text fa-lg"></i>
+                </a>
             </div>
                 
 

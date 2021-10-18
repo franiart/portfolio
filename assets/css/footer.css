@@ -12,7 +12,6 @@ footer{
 
 
 .footer-nav a{
-    text-decoration: none;
     color: #fff;
     padding: 20px;
 }
@@ -21,29 +20,29 @@ footer{
     opacity: 0.5;
 }
 
-.footer-button button{
-    border-radius: 50%;
-    width: 2.7rem;
-    height: 2.7rem;
-    border: none;
-    margin-left: 5px;
-    margin-right: 5px;
+.footer-rrss{
+    text-align: center;
 }
 
-.footer-button button:hover{
+.footer-rrss .rrss{
+    display: inline-block;
+    border: 2px solid #05386B;
+    background: #fff;
+    border-radius: 50px;
+    width: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #05386B;
+    margin:0 5px 0 5px;
+}
+
+.footer-rrss .rrss:hover{
     background: #05386B;
-    color: #fff;
-    border: 1px solid #fff;
+    color:#fff;
+    border: 2px solid #fff;
 }
 
-.footer-button button i{
-    font-size: 1.3em;
-}
-
-.footer-button button .fa-behance, .footer-button button .fa-instagram {
-    font-size: 1.4em;
-}
-
-.footer-nav, .footer-button{
+.footer-nav, .footer-rrss{
     padding-bottom: 30px;
 }
